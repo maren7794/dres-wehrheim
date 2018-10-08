@@ -19,9 +19,9 @@
     // }
   }
 .team-pic{
-  min-width: 100%;
+  width: 100%;
   //max-heigth: 40vh;
-  height: auto;
+  //height: auto;
 
 }
 .banner-team {
@@ -58,7 +58,7 @@
   text-align: center;
 }
 .header-prim{
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: 30px;
   //padding-bottom: 5px;
 }
@@ -69,6 +69,9 @@
 .eckig{
   border: 1.7px solid #E9DBC4;
 
+}
+.eckig:hover{
+  border: 1.7px solid $praxis-rot;
 }
 .button-center{
   text-align: center;
