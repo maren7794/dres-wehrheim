@@ -1,0 +1,11 @@
+Rails.application.routes.draw do
+  root to: 'pages#home'
+  get 'praxis', to: 'pages#praxis', as: :praxis
+  get 'team', to: 'pages#team', as: :team
+  get 'leistungen', to: 'pages#leistungen', as: :leistungen
+  get 'praxislabor', to: 'pages#praxislabor', as: :praxislabor
+  get 'anfahrt', to: 'pages#anfahrt', as: :anfahrt
+  get 'impressum', to: 'pages#impressum', as: :impressum
+  get 'datenschutz', to: 'pages#datenschutz', as: :datenschutz
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+end
